@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Inline from './component/inline';
+import Stylesheet from './component/styleSheet';
+import './appStyle.css';
+import styles from './appStyle.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* <h1 className='eror'>eror</h1> */}
+      {/* <h1 className={styles.success}>success</h1> */}
+      {/* <Inline /> */}
+      {/* <Stylesheet style={true} /> */}
     </div>
   );
 }
